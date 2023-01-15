@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    height: 80px;
+
+}
+nav h1{
+    width: 150px;
+    position: absolute;
+    top: 30px;
+    left: 12%;
+}
+nav ul{
+    float: right;
+    margin-right: 25px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 15px;
+}
+nav ul li a{
+    position: relative;
+    color: gray;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/*........................
+nav end
+......................*/
+.container-box{
+    background-color: lightgoldenrodyellow;
+}
+.container{
+    position: absolute;
+width: 862px;
+height: 225px;
+left: 300px;
+top: 100px;
+}
+.container-title{  
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 65px;
+text-align: center;
+}
+.descripstion{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+
+position: absolute;
+width: 868px;
+height: 52px;
+left: 150px;
+top: 170px;
+}
+.btn{
+    background-color: orange;
+    position: absolute;
+width: 150px;
+height: 50px;
+left: 350px;
+top: 253px;
+border-radius: 10px;
+}
+/*...................................
+ 1st container end
+ ....................................*/
+
+ .banner{
+position: absolute; 
+top: 457px;
+
+ }
+ .banner img{
+    width: 1000px;
+    height: 500px;
+    margin-left: 200px;
+    
+ }
+ /*..........................
+ banner end
+ ..............................*/
+
+
+
+/*...........................
+muliple image
+........................*/
+ .multiple{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    position: absolute;
+    top: 1050px;
+    margin-left: 180px;
+ }
+ .image-bar{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 40px;
+    
+ }
+ .ima{
+width: 250px;
+height: 250px;
+ }
+ .side-angle{  
+position: absolute;
+width: 5px;
+height: 90px;
+left: 3px;
+top: 655px;
+background: #FF900E;
+ }
+ .feature-box{
+    
+   margin-left: 60px; 
+ }
+ .feature-title{
+    margin-top: 160px;
+    font-weight: 700;
+font-size: 40px;
+line-height: 43px;
+ }
+ .span-gray{
+    color: gray;
+ }
+ .span-orange{
+    color: orange;
+ }
+ .feature-description{
+
+ }
+ .btn-2{
+background-color: orange;
+width: 150px;
+height: 50px;
+border-radius: 10px;
+ }
+ /*...........................
+ 4 image bar section end
+ ...............................*/
+ 
+ .love-enjoy{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    position: absolute;
+    width: 1000px;
+    height: 959px;
+    left: 150px;
+    top: 1645px;
+    
+ }
+ .love-container{
+    position: absolute;
+width: 586px;
+height: 982px;
+left: 40px;
+padding: 20px 0;
+font-weight: 35px;
+
+ }
+ .love-title{
+    font-size: 45px;
+    font-weight: 700;
+    padding: 30px 0;
+ }
+ .love-description{
+ width: 400px;
+ border-radius: 5px;
+height: 80px;
+box-shadow: 2px 2px 2px gainsboro;
+box-sizing: border-box;
+
+
+ }
+ .entry-title{
+padding: 20px 0;
+ font-weight: 600;
+ font-size: 20px;
+ line-height: 20px;
+ }
+ .entry-des{
+    width: 400px;
+    border-radius: 5px;
+   height: 70px;
+   box-shadow: 2px 2px 2px gainsboro;
+
+ }
+ 
+
+ 
+ .one-image{
+
+margin-left: 400px;
+overflow: none;   
+ }
+ .imag{
+    width: 708px;
+    height: 650px;
+ }
+ 
+ .btn-3{
+    position: absolute;
+width: 202px;
+height: 100px;
+left: 480px;
+top: 550px;
+background-color: orange;
+font-size: 20px;
+border-radius: 10px;
+ }
+ 
+
+/*.....................
+4th section end
+.........................*/
+
+
+.facts{
+    font-family: 'Work Sans';
+    position: absolute;
+    width: 150px;
+    height: 63px;
+    left: 200px;
+    top: 2450px;
+    
+    
+    
+}
+.facts-title{
+    
+position: absolute;
+width: 258px;
+height: 53px;
+
+font-weight: 700;
+font-size: 45px;
+line-height: 43px;
+
+
+}
+.facts-description{
+    position: absolute;
+    width: 542px;
+    height: 52px;
+    top: 70px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    
+}
+.count{
+    font-weight: 700;
+    font-size: 20px;
+}
+.count-title{
+    font-weight: 600;
+    color: gray;
+}
+
+.menu-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    position: relative;
+    top: 2550px;
+    left: 200px;
+    
+}
+.menu-container button{
+ width: 150px;
+ height: 150px;
+ transition: 0.5s;
+} 
+.menu-container button:hover{
+    background-color: darkturquoise;
+}
+.our{
+    position: absolute;
+    width: 900px;
+    height: 129px;
+    top: 2919px;
+    
+    
+}
+.our-title{
+   
+    font-weight: 700;
+    font-size: 40px;
+    margin-left: 600px;
+}
+.our-description{
+    
+    width: 450px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 550px;
+    
+    padding: 15px 0;
+}
+
+.sponsor{
+    
+}
+.sponsor-image{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+    justify-content: space-around;
+    position: relative;
+    height: 120px;
+    top: 2885px;
+    left: 50px;
+}
+
+/*......................
+footer start
+...........................*/
+
+footer p{
+position: absolute;
+width: 100%;
+height: 50px;
+
+top: 3244px;
+text-align: center;
+background: #FFF4E7;
+border-radius: 8px;
+}
+
+
+
+/*....................................
+media query start
+....................................*/
+
+ @media screen and (max-width:576px) {
+    nav h1{
+      
+       text-align: center;
+        width: 100px;
+    }
+    ul{
+        
+        width: 100%;
+        height: 100vh;
+        top: 20px;
+        left: 0;
+        text-align: center;
+    }
+    nav ul li{
+        display: block;
+        margin: 30px 0;
+        line-height: 15px;
+       
+    }
+    nav ul li a{
+        font-size: 20px;
+        top: 100px;
+        text-align: center;
+        justify-content: center;
+
+    }
+ }
