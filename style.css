@@ -36,6 +36,12 @@ nav ul li a{
 /*........................
 nav end
 ......................*/
+
+
+/*............................
+2nd section start
+..............................*/
+
 .container-box{
     background-color: lightgoldenrodyellow;
 }
@@ -47,7 +53,7 @@ left: 300px;
 top: 100px;
 }
 .container-title{  
-font-family: 'Work Sans';
+
 font-style: normal;
 font-weight: 700;
 font-size: 55px;
@@ -55,8 +61,8 @@ line-height: 65px;
 text-align: center;
 }
 .descripstion{
-font-family: 'Work Sans';
-font-style: normal;
+
+
 font-weight: 500;
 font-size: 16px;
 line-height: 20px;
@@ -100,6 +106,10 @@ top: 457px;
 /*...........................
 muliple image
 ........................*/
+.multiple-image{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
  .multiple{
     width: 80%;
     display: grid;
@@ -166,7 +176,6 @@ border-radius: 10px;
     height: 959px;
     left: 150px;
     top: 1645px;
-    
  }
  .love-container{
     position: absolute;
@@ -235,7 +244,6 @@ border-radius: 10px;
 
 
 .facts{
-    font-family: 'Work Sans';
     position: absolute;
     width: 150px;
     height: 63px;
@@ -359,7 +367,11 @@ media query start
     nav h1{
       
        text-align: center;
-        width: 100px;
+        width: 100%;
+        top: 50px;
+        color: cornflowerblue;
+        left: 0;
+        
     }
     ul{
         
@@ -374,12 +386,98 @@ media query start
         margin: 30px 0;
         line-height: 15px;
        
+       
     }
     nav ul li a{
         font-size: 20px;
         top: 100px;
         text-align: center;
         justify-content: center;
-
+        color: rgb(240, 19, 203);
     }
+    .container{
+    width: 400px;
+    height: 200px;
+    left:0;
+    top: 300px;
+    }
+    .descripstion{
+        
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 15px;
+    position: absolute;
+    width: 400px;
+    left: 30px;
+    top: 230px;
+    }
+    .btn{
+        background-color: coral;
+        position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 120px;
+    top: 300px;
+    border-radius: 10px;
+    }
+    .banner img{
+        width: 100%;
+        height: 50%;
+        margin-left: 0px;
+        margin-top: 260px;
+    }
+    .multiple{
+       
+        top: 970px;
+        margin-left: 90px;
+        gap: 10px;
+     }
+     .image-bar{
+         width: 100%;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 0px;
+        gap: 20px;
+     } 
+     .feature-box{
+        
+        margin-top: 3000px;
+        margin-left: 0px;
+      
+      }
+     .feature-box .facts-title .facts-description{ 
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        justify-content: ;
+        }
+        .love-enjoy{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap: 5px;
+            position: relative;
+            width: 400px;
+            height: 100vh;
+            left: 10px;
+            top: 1400px;
+            
+         } 
+         .one-image{
+
+            margin-left: 0px;
+              
+             }
+             .imag{
+                width: 400px;
+                height: 300px;
+                margin-top: 700px;
+             }
+             .btn-3{  
+            width: 180px;
+            height: 80px;
+            left: 120px;
+            top: 1050px;
+            border-radius: 10px;
+             }
  }
